@@ -1,0 +1,53 @@
+body {
+	height: 100%;
+	background-color: purple;
+}
+.outest {
+	display: flex;
+	flex-direction: row;
+	background-color: green;
+	margin: 20px;
+	width: auto;
+	
+}
+
+.outer {
+	background-color: blue;
+	margin: 20px;
+	border-style: solid;
+	/* width: 20%; */
+
+}
+
+.outer2test {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.outer3test {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.inner_1 {
+	display: flex;
+	flex-direction: column;
+	background-color: orange;
+	margin: 8px;
+}
+
+.inner_2 {
+	display: flex;
+	flex-direction: row;
+	background-color: orange;
+	margin: 8px;
+	width: 80px;
+}
+
+.inner_3 {
+	background-color: orange;
+	width: 80px;
+	margin: 8px;
+}
+
