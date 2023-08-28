@@ -3,51 +3,50 @@ body {
 	background-color: purple;
 }
 .outest {
-	display: flex;
-	flex-direction: row;
+	display: grid;
+    gap: 15px;
 	background-color: green;
 	margin: 20px;
 	width: auto;
+    grid-template-columns: auto auto auto;
 }
 
 .outer {
+    display: grid;
 	background-color: blue;
-	margin: 20px;
+	margin: 0px;
 	border-style: solid;
-	flex: 1 1 25%;
+    width: 100%;
 }
 
 .outer2test {
-	display: flex;
-	flex-wrap: wrap;
-	flex: 2 2 25%;
+    grid-template-columns: 40% 40% 20%;
+    gap: 0px;
+
 }
 
 .outer3test {
-    display: flex;
-    flex-direction: row;
-	flex-wrap: wrap;
-	flex: 2 2 25%;
+    grid-template-columns: 40% 40% 20%;
+    gap: 0px;
 }
 
 .inner_1 {
-	display: flex;
-	flex-direction: column;
 	background-color: orange;
 	margin: 8px;
 }
 
 .inner_2 {
-	display: flex;
-	flex-direction: row;
 	background-color: orange;
-	margin: 8px;
-	width: 80px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .inner_3 {
 	background-color: orange;
 	width: 80px;
+    height: 40px;
 	margin: 8px;
+    border-style: solid;
+    border-width: 1px;
 }
 
