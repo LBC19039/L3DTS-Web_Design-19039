@@ -15,19 +15,20 @@ body {
 	background-color: blue;
 	margin: 20px;
 	border-style: solid;
-	/* width: 20%; */
-
+	flex: 1 1 25%;
 }
 
 .outer2test {
 	display: flex;
 	flex-wrap: wrap;
+	flex: 2 2 25%;
 }
 
 .outer3test {
     display: flex;
     flex-direction: row;
 	flex-wrap: wrap;
+	flex: 2 2 25%;
 }
 
 .inner_1 {
