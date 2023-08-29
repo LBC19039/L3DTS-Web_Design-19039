@@ -2,6 +2,7 @@ body {
 	height: 100%;
 	background-color: purple;
 }
+
 .outest {
 	display: grid;
     gap: 15px;
