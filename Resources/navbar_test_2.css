@@ -25,12 +25,15 @@ ul.navbutton {
 }
 
 li.navbutton {
-    float: left;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
     color: white;
     text-align: center;
     text-decoration: none;
     background-color: blue; 
-    
+    height: 100%;
 }
 
 .loginbutton {
