@@ -23,6 +23,7 @@ body {
     width: 50%;
     height: auto;
     flex-wrap: wrap;
+    background-color: blue;
 }
 
 .navbutton {
@@ -31,7 +32,7 @@ body {
     align-items: center;
     height: 100%;
     width: auto;
-    background-color: blue;
+    
 }
 
 .loginbutton {
@@ -39,4 +40,6 @@ body {
     align-items: center;
     background-color: pink;
     height: 100%;
+    margin-right: 35%;
+    width: 30%;
 }
