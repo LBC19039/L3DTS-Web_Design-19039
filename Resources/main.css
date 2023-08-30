@@ -12,7 +12,7 @@ body {
     background-color: greenyellow;
 }
 
-/*navigation bar code*/
+/* navigation bar */
 
 .navbar {
     display: flex;
@@ -52,7 +52,7 @@ body {
     width: 120px;
 }
 
-/*footer code*/
+/* footer */
 
 .footer {
     display: flex;
@@ -69,4 +69,22 @@ body {
     height: auto;
     flex-wrap: wrap;
     background-color: blue;
+}
+
+/* main contents */
+
+.main {
+    display: grid;
+    background-color: magenta;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+}
+
+.herobanner {
+    grid-column: auto / span 2;
+    width: 100%;
+    height: auto;
+    background-color: red;
 }
