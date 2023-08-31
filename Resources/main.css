@@ -88,3 +88,11 @@ body {
     height: auto;
     background-color: red;
 }
+
+.locationimage {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 32px;
+    background-color: red;
+}
