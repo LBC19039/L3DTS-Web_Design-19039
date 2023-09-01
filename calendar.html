@@ -3,9 +3,11 @@
     <head>
         <title>example header</title>
 		<link rel="stylesheet" href="resources/main.css">
+        <link rel="stylesheet" href="resources/calendar.css">
     </head>
     <body>
         <div class="grid-container">
+            <!--navigation bar-->
             <div class="navbar">
                 <div class="navsplit" style="flex-flow: row-reverse; width: auto;">
                     <div class="loginbutton">
@@ -22,10 +24,12 @@
                 </div>
             </div>
 
-            <div class="main" style="height: 1500px; background-color: magenta;">
-
+            <!--main contents of the website-->
+            <div class="main" style="background-color: magenta;">
+                <iframe class="calendar" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR97G249gzMoTdG7NwJa9jkxgFgClP08HjlG9QWZdEgsTHntYJCa7pETuZa9s4ZAqEB7j_xFCY6HA6i/pubhtml?gid=274715859&amp;single=true&amp;widget=false&amp;chrome=false&amp;headers=false" width="100%"></iframe>
             </div>
 
+            <!--footer-->
             <div class="footer">
                 <div class="footersplit"><span style="margin: auto; padding: 8px; background-color: grey;">testing</span></div>
                 <div class="footersplit"><span style="margin: auto; padding: 8px; background-color: grey;">Lorem ipsum dolor sit amet</span></div>
