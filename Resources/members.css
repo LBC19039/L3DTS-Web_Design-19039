@@ -1,0 +1,24 @@
+.member {
+    display: grid;
+    height: auto;
+    width: 100% - 64px;
+    margin: 32px;
+    grid-template-columns: 30% 70%;
+}
+
+.tag {
+    background-color: indigo;
+    grid-column: auto / span 2;
+}
+
+.memberimage {
+    width: 100%;
+    grid-column: auto / span 1;
+    background-color: navajowhite;
+}
+
+.contents {
+    grid-column: auto / span 1;
+    background-color: burlywood;
+    margin-left: 8px;
+}
