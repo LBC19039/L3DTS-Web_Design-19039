@@ -1,0 +1,12 @@
+.main {
+    grid-template-rows: auto auto;
+    padding: 32px;
+}
+
+.info {
+    background-color: blueviolet;
+}
+
+.form {
+
+}
