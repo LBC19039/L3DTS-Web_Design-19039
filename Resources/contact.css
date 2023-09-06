@@ -17,5 +17,5 @@ form {
 }
 textarea.input {
     height: 10em;
-    max-width: 100%;
+    resize: vertical;
 }

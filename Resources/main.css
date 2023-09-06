@@ -11,6 +11,7 @@ body {
     grid-template-rows: auto 1fr auto;
     background-color: greenyellow;
     font-size: 15pt;
+    overflow-x: hidden;
 }
 
 /* navigation bar */
