@@ -7,6 +7,15 @@
     background-color: blueviolet;
 }
 
-.form {
+form {
+    background-color: aquamarine;
+}
 
+.input {
+    width: 100%;
+
+}
+textarea.input {
+    height: 10em;
+    max-width: 100%;
 }
