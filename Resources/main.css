@@ -10,8 +10,7 @@ body {
     height: 100vh;
     grid-template-rows: auto 1fr auto;
     background-color: greenyellow;
-    font-size: 15pt;
-    overflow-x: hidden;
+    font-size: 13pt;
 }
 
 /* navigation bar */

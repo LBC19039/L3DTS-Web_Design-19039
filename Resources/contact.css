@@ -18,4 +18,16 @@ form {
 textarea.input {
     height: 10em;
     resize: vertical;
+    margin-bottom: 8px;
+}
+
+.sendbutton {
+    display: block;
+    background-color: yellowgreen;
+    width: 20%;
+    max-width: 120px;
+    height: 30px;
+    float: right;
+    border: solid 1px;
+    border-radius: 5pt;
 }
