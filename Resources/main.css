@@ -50,8 +50,16 @@ body {
     display: flex;
     align-items: center;
     background-color: pink;
-    height: 100%;
-    width: 120px;
+    height: auto;
+    width: 136px;
+}
+.loginbutton > input {
+    width: 100%;
+    background-color: yellowgreen;
+    height: 30px;
+    border: solid 1px;
+    border-radius: 5pt;
+    margin: 8px;
 }
 
 /* footer */
