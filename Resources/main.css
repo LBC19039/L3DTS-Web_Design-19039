@@ -21,6 +21,7 @@ body {
     flex-flow: row-reverse;
     background-color: orange;
     width: 100%;
+    height: auto;
 }
 
 .navsplit {
