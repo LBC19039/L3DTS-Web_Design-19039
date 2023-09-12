@@ -2,7 +2,7 @@ body {
 	height: 100%;
     padding: 0px;
     margin: 0px;
-    
+    font-family: "Source Sans Pro", Arial, Helvetica
 }
 
 .grid-container {
@@ -13,53 +13,83 @@ body {
     font-size: 13pt;
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat/Montserrat-VariableFont_wght.ttf");
+
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("Source_Sans_Pro/SourceSansPro-Black.ttf");
+}
+
 /* navigation bar */
 
 .navbar {
     display: flex;
     flex-direction: row;
     flex-flow: row-reverse;
-    background-color: orange;
+    background-color: #006094;
     width: 100%;
     height: auto;
 }
 
-.navsplit {
+.navbar > div {
     display: flex;
     height: auto;
     flex-wrap: wrap;
-    background-color: blue;
 }
+
+/* navigation buttons */
 
 .navbutton {
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 76px;
+    height: 92px;
+}
+
+.navbutton > a {
+    display: block;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #006094;
+}
+
+.navbutton > a:hover {
+    background-color: #A9B2B1;
+    color: black;
 }
 
 .logobutton {
     width: 72px;
     height: 60px;
-    background-color: green;
-    padding: 8px;
+    padding: 16px;
 }
+
+/* login button */
 
 .loginbutton {
     display: flex;
+    flex-flow: reverse;
     align-items: center;
-    background-color: pink;
     height: auto;
     width: 136px;
 }
+
 .loginbutton > input {
     width: 100%;
-    background-color: yellowgreen;
+    background-color: #A2C5D9;
     height: 30px;
     border: solid 1px;
     border-radius: 5pt;
     margin: 8px;
+}
+
+.loginbutton > input:hover {
+    background-color: #DCEBF4
 }
 
 /* footer */
