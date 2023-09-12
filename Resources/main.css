@@ -1,5 +1,5 @@
 body {
-	height: 100%;
+	height: max-content;
     padding: 0px;
     margin: 0px;
     font-family: "Source Sans Pro", Arial, Helvetica
@@ -9,7 +9,6 @@ body {
     display: grid;
     height: 100vh;
     grid-template-rows: auto 1fr auto;
-    background-color: greenyellow;
     font-size: 13pt;
 }
 
