@@ -97,16 +97,22 @@ body {
 .footer {
     display: flex;
     flex-direction: row;
-    flex-flow: row-reverse;
     justify-content: space-between;
-    background-color: orange;
+    background-color: #F5F5F5;
     width: 100%;
     height: 56px;
 }
 
-.footersplit {
+.footer > div {
     display: flex;
-    height: auto;
+    align-items: center;
     flex-wrap: wrap;
-    background-color: blue;
+    height: auto;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.socials {
+    width: 76px;
+    min-width: 76px;
 }
