@@ -6,12 +6,8 @@
     margin-right: auto;
 }
 
-.info {
-    background-color: blueviolet;
-}
-
-form {
-    background-color: aquamarine;
+.info > span {
+    margin-bottom: 80px;
 }
 
 .input {
@@ -26,11 +22,15 @@ textarea.input {
 
 .sendbutton {
     display: block;
-    background-color: yellowgreen;
+    background-color: #A2C5D9;
     width: 20%;
     max-width: 120px;
     height: 30px;
     float: right;
     border: solid 1px;
     border-radius: 5pt;
+}
+
+.sendbutton:hover {
+    background-color: #DCEBF4;
 }

@@ -1,8 +1,12 @@
 body {
-	height: max-content;
+    background-color: #F5F5F5;
     padding: 0px;
     margin: 0px;
-    font-family: "Source Sans Pro", Arial, Helvetica
+    font-family: "Source Sans Pro", Arial, Helvetica;
+}
+
+h1 {
+    font-family: "Montserrat", Verdana, Tahoma;
 }
 
 .grid-container {
@@ -14,12 +18,12 @@ body {
 
 @font-face {
     font-family: "Montserrat";
-    src: url("Montserrat/Montserrat-VariableFont_wght.ttf");
+    src: url("./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
 
 }
 @font-face {
     font-family: "Source Sans Pro";
-    src: url("Source_Sans_Pro/SourceSansPro-Black.ttf");
+    src: url("./Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
 }
 
 /* navigation bar */
@@ -88,7 +92,7 @@ body {
 }
 
 .loginbutton > input:hover {
-    background-color: #DCEBF4
+    background-color: #DCEBF4;
 }
 
 /* footer */
