@@ -6,14 +6,10 @@
     margin-right: auto;
 }
 
-.info > span {
-    margin-bottom: 80px;
-}
-
 .input {
     width: 100%;
-
 }
+
 textarea.input {
     height: 10em;
     resize: vertical;
