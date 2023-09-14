@@ -1,5 +1,6 @@
 .main {
     width: 70%;
+    padding: 32px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -8,7 +9,7 @@
     display: grid;
     height: auto;
     width: 100%;
-    margin: 32px;
+    margin-top: 32px;
     grid-template-columns: 30% 70%;
 }
 
@@ -30,6 +31,7 @@ h2 {
     line-height: 3px;
 }
 
-p {
+.member > p {
     margin: 0;
+    margin-left: 8px;
 }
