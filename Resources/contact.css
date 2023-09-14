@@ -8,6 +8,11 @@
 
 .input {
     width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+
 }
 
 textarea.input {
