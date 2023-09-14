@@ -23,6 +23,21 @@
     text-align: center; 
 }
 
+.header {
+    background-image: url("./Images/hero_banner.jpg");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 1600 / 500;
+}
+
+.header > h1 {
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .herobanner {
     grid-column: auto / span 2;
     width: 100%;
