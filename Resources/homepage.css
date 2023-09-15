@@ -1,25 +1,31 @@
+/* main body */
+
 .main {
     display: grid;
     background-color: #F5F5F5;
     height: 100%;
-    width: 100%;
-    grid-template-columns: 100%;
-}
-
-.main > div {
-    display: grid;
     width: 70%;
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto 1fr;
+    grid-template-rows: auto auto auto;
     margin-left: auto;
     margin-right: auto;
 }
 
-.info {
-    grid-column: auto / span 2;
+.stockimage {
+    display: flex;
+    align-items: center;
+    height: auto;
+    grid-column: auto / span 1;
+    width: 100%;
+    margin-top: 32px;
 }
 
-.info > h1, .info > p {
+.info {
+    grid-column: auto / span 1;
+    padding: 32px;
+}
+
+.info > h2, .info > p {
     text-align: center; 
 }
 
@@ -42,6 +48,12 @@
     grid-column: auto / span 2;
     width: 100%;
     height: auto;
+}
+
+.venue > b {
+    display: block;
+    text-align: center;
+    line-height: 24px;
 }
 
 .locationimage {
