@@ -1,9 +1,4 @@
-.main {
-    width: 70%;
-    padding: 32px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/* members sections */
 
 .member {
     display: grid;
@@ -17,21 +12,17 @@
     grid-column: auto / span 2;
 }
 
-.memberimage {
-    width: 100%;
-    grid-column: auto / span 1;
-}
-
-.contents {
-    grid-column: auto / span 1;
-    margin-left: 8px;
-}
-
-h2 {
+.tag > h2 {
     line-height: 3px;
 }
 
+.member > img {
+    grid-column: auto / span 1;
+    width: 100%;
+}
+
 .member > p {
+    grid-column: auto / span 1;
     margin: 0;
     margin-left: 8px;
 }

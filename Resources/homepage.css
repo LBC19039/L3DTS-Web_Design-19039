@@ -1,17 +1,28 @@
-/* main body */
-
 .main {
-    display: grid;
-    background-color: #F5F5F5;
-    height: 100%;
-    width: 70%;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.stockimage {
+/* hero banner */
+
+.header {
+    background-image: url("./Images/hero_banner.jpg");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 1600 / 500;
+}
+
+.header > h1 {
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* information section */
+
+.stock-image {
     display: flex;
     align-items: center;
     height: auto;
@@ -29,26 +40,7 @@
     text-align: center; 
 }
 
-.header {
-    background-image: url("./Images/hero_banner.jpg");
-    background-size: cover;
-    width: 100%;
-    aspect-ratio: 1600 / 500;
-}
-
-.header > h1 {
-    color: white;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.herobanner {
-    grid-column: auto / span 2;
-    width: 100%;
-    height: auto;
-}
+/* venue section */
 
 .venue > b {
     display: block;
@@ -56,7 +48,7 @@
     line-height: 24px;
 }
 
-.locationimage {
+.location-image {
     display: flex;
     align-items: center;
     height: auto;

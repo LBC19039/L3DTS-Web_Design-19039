@@ -1,8 +1,11 @@
+/* shared page elements */
+
 body {
     background-color: #F5F5F5;
     padding: 0px;
     margin: 0px;
     font-family: "Source Sans Pro", Arial, Helvetica;
+    font-size: 13pt;
 }
 
 h1, h2, h3 {
@@ -14,8 +17,17 @@ h1, h2, h3 {
     display: grid;
     height: 100vh;
     grid-template-rows: auto 1fr auto;
-    font-size: 13pt;
 }
+
+.main {
+    display: grid;
+    width: 70%;
+    padding: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* fonts */
 
 @font-face {
     font-family: "Montserrat";
@@ -29,7 +41,7 @@ h1, h2, h3 {
 
 /* navigation bar */
 
-.navbar {
+.nav-bar {
     display: flex;
     flex-direction: row;
     flex-flow: row-reverse;
@@ -38,7 +50,7 @@ h1, h2, h3 {
     height: auto;
 }
 
-.navbar > div {
+.nav-bar > div {
     display: flex;
     height: auto;
     flex-wrap: wrap;
@@ -46,7 +58,7 @@ h1, h2, h3 {
 
 /* navigation buttons */
 
-.navbutton {
+.nav-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +66,7 @@ h1, h2, h3 {
     height: 92px;
 }
 
-.navbutton > a {
+.nav-button > a {
     display: block;
     padding: 16px;
     color: white;
@@ -62,12 +74,12 @@ h1, h2, h3 {
     background-color: #006094;
 }
 
-.navbutton > a:hover {
+.nav-button > a:hover {
     background-color: #A9B2B1;
     color: black;
 }
 
-.logobutton {
+.logo-button {
     width: 72px;
     height: 60px;
     padding: 16px;
@@ -75,7 +87,7 @@ h1, h2, h3 {
 
 /* login button */
 
-.loginbutton {
+.login-button {
     display: flex;
     flex-flow: reverse;
     align-items: center;
@@ -83,7 +95,7 @@ h1, h2, h3 {
     width: 136px;
 }
 
-.loginbutton > input {
+.login-button > input {
     width: 100%;
     background-color: #A2C5D9;
     height: 30px;
@@ -92,7 +104,7 @@ h1, h2, h3 {
     margin: 8px;
 }
 
-.loginbutton > input:hover {
+.login-button > input:hover {
     background-color: #DCEBF4;
 }
 

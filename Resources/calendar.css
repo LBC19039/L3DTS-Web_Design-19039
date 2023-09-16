@@ -1,14 +1,12 @@
-.main {
-    display: grid;
-    height: 100%;
-}
-
-.main > h1, .main > h2 {
+/* headers */
+h1, h2 {
     text-align: center;
 }
 .main > h2 {
     line-height: 1px;
 }
+
+/* calendar itself */
 
 .calendar {
     margin-left: auto;
