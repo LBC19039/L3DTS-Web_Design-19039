@@ -50,7 +50,9 @@
 
 .location-image {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: auto;
     padding: 32px;
 }
@@ -67,9 +69,7 @@
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
-  background-color: purple;
   position: relative;
-  margin: auto;
 }
 
 /* Hide the images by default */
