@@ -48,15 +48,6 @@
     line-height: 24px;
 }
 
-.location-image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 32px;
-}
-
 .location-map {
     width: 100%;
     padding-top: 16px; 
@@ -65,20 +56,28 @@
 
 /* image carousel */
 
+.location-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 32px;
+    margin-left: 32px;
+}
 
-/* Slideshow container */
-.slideshow-container {
+.carousel-container {
   width: 100%;
   position: relative;
 }
 
-/* Hide the images by default */
-.mySlides {
+.location-slides {
     display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
+/* next & previous buttons */
+
+.prev-img, .next-img {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -93,38 +92,17 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
-.next {
+.next-img {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev-img:hover, .next-img:hover {
+  background-color: rgba(169, 178, 177, 0.4);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+/* the dots */
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -140,10 +118,11 @@
   background-color: #717171;
 }
 
-/* Fading animation */
+/* fading animation */
+
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
 }
 
 @keyframes fade {
