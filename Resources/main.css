@@ -72,11 +72,12 @@ h1, h2, h3 {
     color: white;
     text-decoration: none;
     background-color: #006094;
+    transition: 0.3s ease;
 }
 
 .nav-button > a:hover {
-    background-color: #A9B2B1;
-    color: black;
+    background-color: #DCEBF4;
+    color: #006094;
 }
 
 .logo-button {
