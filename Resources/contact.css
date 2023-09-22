@@ -29,6 +29,8 @@ textarea.input {
     float: right;
     border: solid 1px;
     border-radius: 5pt;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .sendbutton:hover {
