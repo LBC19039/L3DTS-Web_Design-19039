@@ -16,7 +16,7 @@
     line-height: 3px;
 }
 
-.member > img {
+figure > img {
     grid-column: auto / span 1;
     width: 100%;
 }

@@ -1,11 +1,11 @@
-.main {
+main {
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto;
 }
 
 /* hero banner */
 
-.header {
+header {
     background-image: url("./Images/hero_banner.jpg");
     background-size: cover;
     width: 100%;
@@ -13,7 +13,7 @@
     margin-bottom: 64px;
 }
 
-.header > h1 {
+header > h1 {
     color: white;
     width: 50%;
     margin-left: auto;
@@ -42,9 +42,9 @@
 
 /* venue section */
 
-.venue > b {
-    display: block;
+address {
     text-align: center;
+    font-weight: bold;
     line-height: 24px;
 }
 
