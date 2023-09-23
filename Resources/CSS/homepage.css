@@ -6,7 +6,7 @@ main {
 /* hero banner */
 
 header {
-    background-image: url("./Images/hero_banner.jpg");
+    background-image: url("../Images/hero_banner.jpg");
     background-size: cover;
     width: 100%;
     aspect-ratio: 1600 / 500;

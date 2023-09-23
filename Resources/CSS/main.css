@@ -35,12 +35,12 @@ main {
 
 @font-face {
     font-family: "Montserrat";
-    src: url("./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+    src: url("../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
 
 }
 @font-face {
     font-family: "Source Sans Pro";
-    src: url("./Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+    src: url("../Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
 }
 
 /* navigation bar */
