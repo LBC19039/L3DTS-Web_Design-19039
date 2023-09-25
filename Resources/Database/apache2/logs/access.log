@@ -1,0 +1,16 @@
+127.0.0.1 - - [04/Oct/2023:23:08:02 +1300] "GET /phpmyadmin/ HTTP/1.1" 200 42744
+127.0.0.1 - - [04/Oct/2023:23:08:02 +1300] "GET /phpmyadmin/js/messages.php?lang=en&db=&server=0&token=c88301e59cd6822a936c933bb152f282 HTTP/1.1" 200 16674
+127.0.0.1 - - [04/Oct/2023:23:08:03 +1300] "GET /phpmyadmin/version_check.php?&_nocache=1696414083103691109 HTTP/1.1" 200 39
+127.0.0.1 - - [04/Oct/2023:23:08:05 +1300] "GET /phpmyadmin/db_structure.php?server=1&db=testing&token=c88301e59cd6822a936c933bb152f282&ajax_request=true&ajax_page_request=true&menuHashes=b018d005&_nocache=1696414085736411983 HTTP/1.1" 200 12389
+127.0.0.1 - - [04/Oct/2023:23:08:08 +1300] "GET /phpmyadmin/sql.php?db=testing&token=c88301e59cd6822a936c933bb152f282&goto=db_structure.php&table=testing&pos=0&ajax_request=true&ajax_page_request=true&menuHashes=b018d005-0d7d3a15&_nocache=1696414088253151572 HTTP/1.1" 200 29153
+127.0.0.1 - - [04/Oct/2023:23:08:08 +1300] "GET /phpmyadmin/js/get_scripts.js.php?scripts[]=tbl_structure.js&scripts[]=gis_data_editor.js&scripts[]=makegrid.js&scripts[]=sql.js HTTP/1.1" 200 50287
+127.0.0.1 - - [04/Oct/2023:23:08:08 +1300] "GET /phpmyadmin/index.php?ajax_request=1&recent_table=1&token=c88301e59cd6822a936c933bb152f282 HTTP/1.1" 200 340
+127.0.0.1 - - [04/Oct/2023:23:09:16 +1300] "GET /phpmyadmin/tbl_structure.php?db=testing&table=testing&token=c88301e59cd6822a936c933bb152f282&ajax_request=true&ajax_page_request=true&menuHashes=b018d005-0d7d3a15-5ec0dfde&_nocache=1696414156004703444 HTTP/1.1" 200 36646
+127.0.0.1 - - [04/Oct/2023:23:09:16 +1300] "GET /phpmyadmin/index.php?ajax_request=1&recent_table=1&token=c88301e59cd6822a936c933bb152f282 HTTP/1.1" 200 340
+127.0.0.1 - - [04/Oct/2023:23:09:24 +1300] "GET /phpmyadmin/tbl_structure.php?db=testing&table=testing&token=c88301e59cd6822a936c933bb152f282&goto=tbl_structure.php&back=tbl_structure.php&field=Year&change_column=1&ajax_request=true&_nocache=1696414164304690846 HTTP/1.1" 200 35940
+127.0.0.1 - - [04/Oct/2023:23:09:47 +1300] "POST /phpmyadmin/tbl_structure.php HTTP/1.1" 200 34715
+127.0.0.1 - - [04/Oct/2023:23:09:47 +1300] "POST /phpmyadmin/navigation.php?ajax_request=1&token=c88301e59cd6822a936c933bb152f282 HTTP/1.1" 200 683
+127.0.0.1 - - [04/Oct/2023:23:09:53 +1300] "GET /phpmyadmin/tbl_change.php?db=testing&table=testing&token=c88301e59cd6822a936c933bb152f282&ajax_request=true&ajax_page_request=true&menuHashes=b018d005-0d7d3a15-5ec0dfde-e5eec1c0&_nocache=169641419362155809 HTTP/1.1" 200 44665
+127.0.0.1 - - [04/Oct/2023:23:09:53 +1300] "GET /phpmyadmin/index.php?ajax_request=1&recent_table=1&token=c88301e59cd6822a936c933bb152f282 HTTP/1.1" 200 340
+127.0.0.1 - - [04/Oct/2023:23:10:05 +1300] "POST /phpmyadmin/tbl_replace.php HTTP/1.1" 200 12635
+127.0.0.1 - - [04/Oct/2023:23:10:05 +1300] "GET /phpmyadmin/index.php?ajax_request=1&recent_table=1&token=c88301e59cd6822a936c933bb152f282 HTTP/1.1" 200 340
