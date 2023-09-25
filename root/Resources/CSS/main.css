@@ -1,0 +1,141 @@
+/* shared page elements */
+
+body {
+    background-color: #F5F5F5;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Source Sans Pro", Arial, Helvetica;
+    font-size: 13pt;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat", Verdana, Tahoma;
+    color: #006094
+}
+
+figure {
+    margin: 0px;
+}
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+main {
+    display: grid;
+    width: 70%;
+    padding: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+
+/* navigation bar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    background-color: #006094;
+    width: 100%;
+    height: auto;
+}
+
+nav > div {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+/* navigation buttons */
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 92px;
+}
+
+.nav-button > a {
+    display: block;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #006094;
+    transition: 0.3s ease;
+}
+
+.nav-button > a:hover {
+    background-color: #DCEBF4;
+    color: #006094;
+}
+
+.logo-button {
+    width: 72px;
+    height: 60px;
+    padding: 16px;
+}
+
+/* login button */
+
+.login-button {
+    display: flex;
+    flex-flow: reverse;
+    align-items: center;
+    height: auto;
+    width: 136px;
+}
+
+.login-button > input {
+    width: 100%;
+    background-color: #A2C5D9;
+    height: 30px;
+    border: solid 1px;
+    border-radius: 5pt;
+    margin: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-button > input:hover {
+    background-color: #DCEBF4;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 56px;
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.socials {
+    width: 76px;
+    min-width: 76px;
+}

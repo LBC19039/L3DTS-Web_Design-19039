@@ -1,0 +1,38 @@
+main {
+    grid-template-rows: auto auto 1fr;
+}
+
+/* input sections */
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+textarea.input {
+    height: 10em;
+    resize: vertical;
+    margin-bottom: 8px;
+}
+
+/* send button */
+
+.sendbutton {
+    display: block;
+    background-color: #A2C5D9;
+    width: 20%;
+    max-width: 120px;
+    height: 30px;
+    float: right;
+    border: solid 1px;
+    border-radius: 5pt;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.sendbutton:hover {
+    background-color: #DCEBF4;
+}
