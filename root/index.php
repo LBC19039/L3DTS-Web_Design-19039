@@ -21,6 +21,7 @@
                     <div class="nav-button"><a href="./committee.php">Committee</a></div>
                     <div class="nav-button"><a href="./calendar.php">Calendar</a></div>
                     <div class="nav-button"><a href="./contact.php">Contact Us</a></div>
+                    <div class="nav-button"><a href="./test_page.php">Test Page</a></div>
                 </div>
             </nav>
 
