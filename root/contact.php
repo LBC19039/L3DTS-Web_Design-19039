@@ -34,11 +34,11 @@
                     <br>
                 </section>
 
-                <form>
+                <form action="send_message.php" method="post">
                     <label for="fullname">Full Name<span style="color: red;">*</span></label><br>
                     <input type="text" class="input" id="fullname" name="fullname" required>
                     <label for="email">Email<span style="color: red;">*</span></label><br>
-                    <input type="text" class="input" id="email" name="email" required>
+                    <input type="email" class="input" id="email" name="email" required>
                     <label for="phone">Phone Number</label><br>
                     <input type="text" class="input" id="phone" name="phone">
                     <label for="message">Your Message<span style="color: red;">*</span></label><br>
