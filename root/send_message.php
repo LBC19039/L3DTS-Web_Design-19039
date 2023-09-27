@@ -25,24 +25,25 @@
             </nav>
 
             <!--main contents of the website-->
-            <?php
-                require_once "connect.php";
+            <main>
+                <?php
+                    require_once "connect.php";
 
-                $FullName = addslashes($_REQUEST["fullname"]);
-                $Email = addslashes($_REQUEST["email"]);
-                $PhoneNumber = addslashes($_REQUEST["phone"]);
-                $Message = addslashes($_REQUEST["message"]);
+                    $FullName = addslashes($_REQUEST["fullname"]);
+                    $Email = addslashes($_REQUEST["email"]);
+                    $PhoneNumber = addslashes($_REQUEST["phone"]);
+                    $Message = addslashes($_REQUEST["message"]);
 
-                $sql = "INSERT INTO contact (FullName, Email, PhoneNumber, Message) VALUES ('$FullName', '$Email', '$PhoneNumber', '$Message')";
+                    $sql = "INSERT INTO contact (FullName, Email, PhoneNumber, Message) VALUES ('$FullName', '$Email', '$PhoneNumber', '$Message')";
 
-                if($conn -> query($sql) === TRUE) {
-                    echo "<span>Your message has been sent. Please wait up to 24 hours for a response.</span>";
-                }
-                else {
-                    echo "<span>Error: " . $sql . "<br>" . $conn -> error . "</span";
-                }
-    
-            ?>
+                    if($conn -> query($sql) === TRUE) {
+                        echo "<span>Your message has been sent. Please wait up to 24 hours for a response.</span>";
+                    }
+                    else {
+                        echo "<span>Error: " . $sql . "<br>" . $conn -> error . "</span";
+                    }
+                ?>
+            </main>
 
             <!--footer-->
             <footer>
