@@ -11,18 +11,7 @@
     <body>
         <div class="grid-container">
             <!--navigation bar-->
-            <nav>
-                <div class="login-button">
-                    <input type="submit" value="Log In">
-                </div>
-                <div style="width: 100%">
-                    <a href="./index.html"><img src="./Resources/Images/toastmasters_logo.png" alt="Toastmasters Logo" class="logo-button"></a>
-                    <div class="nav-button"><a href="./index.php">Home</a></div>
-                    <div class="nav-button"><a href="./committee.php">Committee</a></div>
-                    <div class="nav-button"><a href="./calendar.php">Calendar</a></div>
-                    <div class="nav-button"><a href="./contact.php">Contact Us</a></div>
-                </div>
-            </nav>
+            <?php include "navigation.php" ?>
 
             <!--main contents of the website-->
             <main>
@@ -42,15 +31,7 @@
             </main>
 
             <!--footer-->
-            <footer>
-                <div class="socials">
-                    <a href="http://www.facebook.com/ecbtoastmasters" rel="external" target="_blank"><img src="./Resources/Images/Social_Icons/facebook_logo.png" alt="Facebook Logo" style="height: 30px; padding-right: 8px;"></a>
-                    <a href="http://www.meetup.com/East-Coast-Bays-Toastmasters" rel="external" target="_blank"><img src="./Resources/Images/Social_Icons/meetup_logo.png" alt="Meetup Logo" style="height: 38px;"></a>
-                </div>
-                <div><a href="https://d112tm.org.nz/" rel="external" target="_blank" style="color: black;">District Website</a></div>
-                <div><a href="https://www.toastmasters.org/" rel="external" target="_blank" style="color: black;">International Website</a></div>
-                <div><span>© 2023 East Coast Bays Toastmasters</span></div>
-            </footer>
+            <?php include "footer.php" ?>
         </div>
     </body>
 </html>

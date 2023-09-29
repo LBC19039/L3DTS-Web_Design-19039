@@ -29,7 +29,7 @@
 
     $result = mysqli_query($conn, $sql);
 
-    // I'm not too sure what this bit does. Either way, it doesn't work...
+    // checks whether or not the username + password exists
 
     if(mysqli_num_rows($result) === 1) {
         $row = mysqli_fetch_assoc($result);
