@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Calendar - East Coast Bays Toastmasters</title>
+        <title>Contact Us - East Coast Bays Toastmasters</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./Resources/CSS/main.css">
-        <link rel="stylesheet" href="./Resources/CSS/calendar.css">
         <link rel="icon" href="./Resources/Images/favicon.png">
     </head>
     <body>
