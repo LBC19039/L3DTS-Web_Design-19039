@@ -1,9 +1,3 @@
-<?php
-    session_start();
-
-    if(isset($_SESSION['id']) && isset($_SESSION['username'])) {
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -29,8 +23,6 @@
                 <figure class="stock-image">
                     <img src="./Resources/Images/stock_image.jpg" style="width: 100%;" alt="Stock Image">
                 </figure>
-
-                <h1>Hello, <?php echo $_SESSION['username']; ?></h1>
 
                 <article class="info">
                     <h2>Who We Are</h2>
@@ -85,12 +77,3 @@
         <script type="text/javascript" src="./Resources/JavaScript/homepage.js"></script> 
     </body>
 </html>
-
-<?php 
-    } 
-    else {
-        header("Location: login_page.php");
-        exit();
-    }
-    
-?>

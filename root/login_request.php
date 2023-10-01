@@ -12,7 +12,7 @@
         }
     }
 
-    $uname = validate($_POST['uname']);
+    $uname = strtolower(validate($_POST['uname']));
     $pass = validate($_POST['password']);
 
     // check if username or password is empty
