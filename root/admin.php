@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="grid-container">
-            <!--navigation bar-->
+            <!--navigation bar + kick if not a member-->
             <?php 
                 include "navigation.php";
                 if(!(isset($_SESSION['id']) && isset($_SESSION['username']))) {
@@ -21,12 +21,12 @@
             <!--main contents of the website-->
             <main style="grid-template-rows: auto auto 1fr;">
                 <h1>This page is purely for testing purposes and will NOT be added to the final website.</h1>
-                <table class="">
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Username</th>
-                        <th>Password</th>
+                <table class="admin">
+                    <tr class="admin">
+                        <th class="admin">ID</th>
+                        <th class="admin">Name</th>
+                        <th class="admin">Username</th>
+                        <th class="admin">Password</th>
                     </tr>
                     <?php
                         require_once "connect.php";
@@ -37,11 +37,11 @@
 
                         if($result -> num_rows > 0){
                             while($row = $result -> fetch_assoc()) {
-                                echo "<tr class='students'>";
-                                    echo "<td class='students'>" . $row["id"] . "</td>";
-                                    echo "<td class='students'>" . $row["name"] . "</td>";
-                                    echo "<td class='students'>" . $row["username"] . "</td>";
-                                    echo "<td class='students'>" . $row["password"] . "</td>";
+                                echo "<tr class='admin'>";
+                                    echo "<td class='admin'>" . $row["id"] . "</td>";
+                                    echo "<td class='admin'>" . $row["name"] . "</td>";
+                                    echo "<td class='admin'>" . $row["username"] . "</td>";
+                                    echo "<td class='admin'>" . $row["password"] . "</td>";
                                 echo "</tr>";
                             }
                         }
@@ -49,7 +49,6 @@
                             echo "0 results";
                         }
                     ?>
-
                 </table>
             </main>
 

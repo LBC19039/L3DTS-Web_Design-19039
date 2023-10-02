@@ -20,7 +20,7 @@ textarea.input {
 
 /* send button */
 
-.sendbutton {
+.send-button {
     display: block;
     background-color: #A2C5D9;
     width: 20%;
@@ -33,6 +33,6 @@ textarea.input {
     transition: 0.3s ease;
 }
 
-.sendbutton:hover {
+.send-button:hover {
     background-color: #DCEBF4;
 }

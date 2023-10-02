@@ -16,17 +16,17 @@
             <!--main contents of the website-->
             <main>
                 <form action="login_request.php" method="post">
+                    <label>Username</label>
+                    <input class="login-input" type="text" name="uname"><br>
+                    <label>Password</label>
+                    <input class="login-input" type="password" name="password"><br>
+                    <button class="submit-login" type="submit">Login</button>
                     <?php
                         if(isset($_GET['error'])) {
                             echo "<p class='error'>" . $_GET['error'] . "</p>";
                         }
                     ?>
-                    <label>Username</label>
-                    <input type="text" name="uname"><br>
-                    <label>Password</label>
-                    <input type="password" name="password"><br>
-
-                    <button type="submit">Login</button>
+                    
                 </form>
             </main>
 

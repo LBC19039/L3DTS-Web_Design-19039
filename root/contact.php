@@ -33,7 +33,7 @@
                     <label for="message">Your Message<span style="color: red;">*</span></label><br>
                     <textarea class="input" id="message" name="message" required></textarea><br>
                     <span style="color: red; font-size: 12pt;">* means required </span>
-                    <input type="submit" class="sendbutton" value="Send">
+                    <input type="submit" class="send-button" value="Send">
                 </form>
             </main>
 
