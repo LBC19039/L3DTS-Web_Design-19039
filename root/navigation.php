@@ -5,11 +5,12 @@
         $LoginBtnDisplay = "Log Out";
         $LoginBtnLink = "./logout.php";
         $GreetingMessage = "<span class='greeting'>Hello, " . $_SESSION['name'] . "!</span>";
+        $MembersPages = "<div class='nav-button'><a href='./admin.php'>Admin</a></div>";
     }
     else {
         $LoginBtnDisplay = "Log In";
         $LoginBtnLink = "./login_page.php";
-        $GreetingMessage = "";
+        $GreetingMessage = $MembersPages = "";
     }
 ?>
 <nav>
@@ -25,6 +26,6 @@
         <div class="nav-button"><a href="./committee.php">Committee</a></div>
         <div class="nav-button"><a href="./calendar.php">Calendar</a></div>
         <div class="nav-button"><a href="./contact.php">Contact Us</a></div>
-        <div class="nav-button"><a href="./test_page.php">Test Page</a></div>
+        <?php echo $MembersPages ?>
     </div>
 </nav>
