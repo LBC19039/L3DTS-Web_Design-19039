@@ -23,7 +23,7 @@
                     <br>
                 </section>
 
-                <form action="send_message.php" method="post">
+                <form action="send_message_update.php" method="post">
                     <label for="fullname">Full Name<span style="color: red;">*</span></label><br>
                     <input type="text" class="input" id="fullname" name="fullname" required>
                     <label for="email">Email<span style="color: red;">*</span></label><br>
