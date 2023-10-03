@@ -9,6 +9,7 @@
         <link rel="icon" href="./Resources/Images/favicon.png">
     </head>
     <body>
+        <?php include "login_update.php" ?>
         <div class="grid-container">
             <!--navigation bar-->
             <?php include "navigation.php" ?>
@@ -75,5 +76,6 @@
             <?php include "footer.php" ?>
         </div>
         <script type="text/javascript" src="./Resources/JavaScript/homepage.js"></script> 
+        <script type="text/javascript" src="./Resources/JavaScript/login.js"></script> 
     </body>
 </html>
