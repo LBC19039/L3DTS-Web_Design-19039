@@ -15,16 +15,6 @@
     $uname = strtolower(validate($_POST['uname']));
     $pass = validate($_POST['password']);
 
-    // check if username or password is empty
-    if(empty($uname)) {
-        header ("Location: login_page.php?error=Username is required");
-        exit();
-    }
-    else if(empty($pass)) {
-        header("Location: login_page.php?error=Password is required");
-        exit();
-    }
-
     $sql = "SELECT * FROM users WHERE username='$uname' AND password='$pass'";
 
     $result = mysqli_query($conn, $sql);
@@ -38,16 +28,16 @@
             $_SESSION['username'] = $row['username'];
             $_SESSION['name'] = $row['name'];
             $_SESSION['id'] = $row['id'];
-            header("Location: index.php");
+            header('Location: ' . strtok($_SERVER['HTTP_REFERER'], "?"));
             exit();
         }
         else {
-            header("Location: login_page.php?error=Incorrect username or password");
+            header('Location: ' . strtok($_SERVER['HTTP_REFERER'], "?") . '?error=Incorrect username or password');
             exit();
         }
     }
     else {
-        header("Location: login_page.php?error=Incorrect username or password");
+        header('Location: ' . strtok($_SERVER['HTTP_REFERER'], "?") . '?error=Incorrect username or password');
         exit();
     }
 ?>

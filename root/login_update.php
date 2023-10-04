@@ -1,5 +1,5 @@
 <!-- The Modal -->
-<div id="id01" class="modal">
+<div id="id01" class="modal" <?php if(isset($_GET['error'])) {echo "style=\"display: block;\"";} ?>>
 
     <!-- Modal Content -->
     <form class="modal-content animate" action="/login_request.php" method="post">
@@ -11,13 +11,17 @@
             <input class="login-input" type="text" name="uname"><br>
             <label>Password</label>
             <input class="login-input" type="password" name="password"><br>
-            <button class="submit-login" type="submit">Login</button>
             <?php
                 if(isset($_GET['error'])) {
-                    echo "<p class='error'>" . $_GET['error'] . "</p>";
+                    echo "<span class='error'>" . $_GET['error'] . "</spam>";
                 }
             ?>
+            <button class="login-button" type="submit">Login</button>
         </div>
 
     </form>
-</div> 
+</div>
+<?php 
+    
+?>
+<script type="text/javascript" src="./Resources/JavaScript/login.js"></script> 

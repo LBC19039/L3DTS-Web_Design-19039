@@ -76,6 +76,5 @@
             <?php include "footer.php" ?>
         </div>
         <script type="text/javascript" src="./Resources/JavaScript/homepage.js"></script> 
-        <script type="text/javascript" src="./Resources/JavaScript/login.js"></script> 
     </body>
 </html>

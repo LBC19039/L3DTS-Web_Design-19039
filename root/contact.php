@@ -9,6 +9,7 @@
         <link rel="icon" href="./Resources/Images/favicon.png">
     </head>
     <body>
+        <?php include "login_update.php" ?>
         <div class="grid-container">
             <!--navigation bar-->
             <?php include "navigation.php" ?>

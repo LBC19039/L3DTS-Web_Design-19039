@@ -211,6 +211,10 @@ color: red;
 cursor: pointer;
 }
 
+.error {
+    color: red;
+}
+
 /* Add Zoom Animation */
 .animate {
 -webkit-animation: animatezoom 0.6s;
