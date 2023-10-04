@@ -3,22 +3,24 @@
 
     if(isset($_SESSION['id']) && isset($_SESSION['username'])) {
         $LoginBtnDisplay = "Log Out";
-        $LoginBtnLink = "./logout.php";
+        // $LoginBtnLink = "./logout.php";
         $GreetingMessage = "<span class='greeting'>Hello, " . $_SESSION['name'] . "!</span>";
         $MembersPages = "<div class='nav-button'><a href='./admin.php'>Admin</a></div>";
+        $LoginBtn = "<a class='login-button' href='./logout.php'> <?php echo $LoginBtnDisplay ?> </a>";
     }
     else {
         $LoginBtnDisplay = "Log In";
-        $LoginBtnLink = "./login_page.php";
+        // $LoginBtnLink = "./login_page.php";
         $GreetingMessage = $MembersPages = "";
+        $LoginBtn = "<button class='login-button' onclick='document.getElementById(\"id01\").style.display=\"block\"'><span style='font-size: initial; font-family: initial;'>$LoginBtnDisplay</span></button>";
     }
 ?>
 <nav>
     <div class="login-button">
         <?php echo $GreetingMessage ?>
-        <a class="login-button" href=<?php echo $LoginBtnLink ?>>
-            <?php echo $LoginBtnDisplay ?>
-        </a>
+        <?php echo $LoginBtn ?>
+        
+
     </div>
     <div style="width: 100%">
         <a href="./index.html"><img src="./Resources/Images/toastmasters_logo.png" alt="Toastmasters Logo" class="logo-button"></a>

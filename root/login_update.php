@@ -1,32 +1,20 @@
- <!-- Button to open the modal login form -->
- <button onclick="document.getElementById('id01').style.display='block'">Login</button>
-
 <!-- The Modal -->
 <div id="id01" class="modal">
 
-  <!-- Modal Content -->
-  <form class="modal-content animate" action="/action_page.php">
-  <div class="imgcontainer">
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="/login_request.php">
+
     <div class="container">
-        
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="uname"><b>Username</b></label>
+        <input class="login-input" type="text" placeholder="Enter Username" name="uname" required>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="psw"><b>Password</b></label>
+        <input class="login-input" type="password" placeholder="Enter Password" name="psw" required>
 
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
+        <button class="login-button" type="submit">Login</button>
     </div>
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-    </div>
-  </form>
+    </form>
 </div> 
