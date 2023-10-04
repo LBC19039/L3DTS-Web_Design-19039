@@ -6,7 +6,7 @@
         // $LoginBtnLink = "./logout.php";
         $GreetingMessage = "<span class='greeting'>Hello, " . $_SESSION['name'] . "!</span>";
         $MembersPages = "<div class='nav-button'><a href='./admin.php'>Admin</a></div>";
-        $LoginBtn = "<a class='login-button' href='./logout.php'> <?php echo $LoginBtnDisplay ?> </a>";
+        $LoginBtn = "<a class='login-button' href='./logout.php'><span style='font-size: initial; font-family: initial;'>$LoginBtnDisplay</span></a>";
     }
     else {
         $LoginBtnDisplay = "Log In";
