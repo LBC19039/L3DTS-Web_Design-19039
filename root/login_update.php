@@ -16,7 +16,7 @@
                     echo "<span class='error'>" . $_GET['error'] . "</spam>";
                 }
             ?>
-            <button class="login-button" type="submit">Login</button>
+            <button class="login-button" type="submit"><span style='font-size: initial; font-family: initial;'>Login</span></button>
         </div>
 
     </form>

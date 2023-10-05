@@ -6,20 +6,19 @@
         // $LoginBtnLink = "./logout.php";
         $GreetingMessage = "<span class='greeting'>Hello, " . $_SESSION['name'] . "!</span>";
         $MembersPages = "<div class='nav-button'><a href='./admin.php'>Admin</a></div>";
-        $LoginBtn = "<a class='login-button' href='./logout.php'><span style='font-size: initial; font-family: initial;'>$LoginBtnDisplay</span></a>";
+        $LoginBtn = "<a class='login-button' href='./logout.php'><span style='font-size: initial; font-family: inherit;'>$LoginBtnDisplay</span></a>";
     }
     else {
         $LoginBtnDisplay = "Log In";
         // $LoginBtnLink = "./login_page.php";
         $GreetingMessage = $MembersPages = "";
-        $LoginBtn = "<button class='login-button' onclick='document.getElementById(\"id01\").style.display=\"block\"'><span style='font-size: initial; font-family: initial;'>$LoginBtnDisplay</span></button>";
+        $LoginBtn = "<button class='login-button' onclick='document.getElementById(\"id01\").style.display=\"block\"'><span style='font-size: initial; font-family: inherit;'>$LoginBtnDisplay</span></button>";
     }
 ?>
 <nav>
     <div class="login-button">
         <?php echo $GreetingMessage ?>
         <?php echo $LoginBtn ?>
-        
 
     </div>
     <div style="width: 100%">
