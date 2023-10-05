@@ -12,7 +12,7 @@
         $LoginBtnDisplay = "Log In";
         // $LoginBtnLink = "./login_page.php";
         $GreetingMessage = $MembersPages = "";
-        $LoginBtn = "<button class='login-button' onclick='document.getElementById(\"id01\").style.display=\"block\"'><span style='font-size: initial; font-family: inherit;'>$LoginBtnDisplay</span></button>";
+        $LoginBtn = "<button class='login-button' onclick='document.getElementById(\"id01\").style.display=\"flex\"'><span style='font-size: initial; font-family: inherit;'>$LoginBtnDisplay</span></button>";
     }
 ?>
 <nav>
