@@ -24,7 +24,13 @@
                     <br>
                 </section>
 
-                <form action="send_message.php" method="post">
+                <?php 
+                    if(isset($_GET['message'])) {
+                        echo "<span>" . $_GET['message'] . "</span>";
+                    }
+                    else {
+                ?>
+                <form action="message_process.php" method="post">
                     <label for="fullname">Full Name<span style="color: red;">*</span></label><br>
                     <input type="text" class="input" id="fullname" name="fullname" required>
                     <label for="email">Email<span style="color: red;">*</span></label><br>
@@ -36,6 +42,8 @@
                     <span style="color: red; font-size: 12pt;">* means required </span>
                     <input type="submit" class="send-button" value="Send">
                 </form>
+                <?php } ?>
+
             </main>
 
             <!--footer-->

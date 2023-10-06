@@ -3,14 +3,12 @@
 
     if(isset($_SESSION['id']) && isset($_SESSION['username'])) {
         $LoginBtnDisplay = "Log Out";
-        // $LoginBtnLink = "./logout.php";
         $GreetingMessage = "<span class='greeting'>Hello, " . $_SESSION['name'] . "!</span>";
         $MembersPages = "<div class='nav-button'><a href='./admin.php'>Admin</a></div>";
-        $LoginBtn = "<a class='login-button' href='./logout.php'><span style='font-size: initial; font-family: inherit;'>$LoginBtnDisplay</span></a>";
+        $LoginBtn = "<a class='login-button' href='./login_request.php'><span style='font-size: initial; font-family: inherit;'>$LoginBtnDisplay</span></a>";
     }
     else {
         $LoginBtnDisplay = "Log In";
-        // $LoginBtnLink = "./login_page.php";
         $GreetingMessage = $MembersPages = "";
         $LoginBtn = "<button class='login-button' onclick='document.getElementById(\"id01\").style.display=\"flex\"'><span style='font-size: initial; font-family: inherit;'>$LoginBtnDisplay</span></button>";
     }
