@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     main {
         grid-template-areas: "info" "stock-image" "venue" "carousel";
     }
@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 601px) {
     main {
         grid-template-areas: 
         "stock-image info"
@@ -23,8 +23,7 @@
     header {
         background-image: url("../Images/hero_banner.jpg");
         aspect-ratio: 1600 / 500;
-    }
-    
+    } 
 }
 
 /* hero banner */

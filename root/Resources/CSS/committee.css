@@ -1,15 +1,24 @@
 /* members sections */
 
+@media screen and (min-width: 601px) {
+    .member {
+        grid-template-columns: auto auto;
+    }
+
+    .tag {
+        grid-column: auto / span 2;
+    }
+
+    .member > p {
+        margin-left: 8px;
+    }
+}
+
 .member {
     display: grid;
     height: auto;
     width: 100%;
     margin-top: 32px;
-    grid-template-columns: auto auto;
-}
-
-.tag {
-    grid-column: auto / span 2;
 }
 
 .tag > h2 {
@@ -24,5 +33,4 @@ figure > img {
 .member > p {
     grid-column: auto / span 1;
     margin: 0;
-    margin-left: 8px;
 }
