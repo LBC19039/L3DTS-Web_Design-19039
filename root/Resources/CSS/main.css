@@ -48,14 +48,8 @@ main {
 nav {
     display: flex;
     flex-direction: row;
-    flex-flow: row-reverse;
     background-color: #006094;
     width: 100%;
-    height: auto;
-}
-
-nav > div, nav > a {
-    display: flex;
     height: auto;
     flex-wrap: wrap;
 }

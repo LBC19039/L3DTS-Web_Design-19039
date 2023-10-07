@@ -1,5 +1,5 @@
-[Sat Oct 07 21:36:32.106620 2023] [mpm_winnt:notice] [pid 6660:tid 756] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Sat Oct 07 21:36:32.106620 2023] [mpm_winnt:notice] [pid 6660:tid 756] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Sat Oct 07 21:36:32.106620 2023] [core:notice] [pid 6660:tid 756] AH00094: Command line: 'C:\\Users\\Admin\\Documents\\GitHub\\L3DTS-Web_Design-19039/apache2/bin/httpd_usbwv8.exe -d C:/Users/Admin/Documents/GitHub/L3DTS-Web_Design-19039/apache2'
-[Sat Oct 07 21:36:32.106620 2023] [mpm_winnt:notice] [pid 6660:tid 756] AH00418: Parent: Created child process 12700
-[Sat Oct 07 21:36:33.521834 2023] [mpm_winnt:notice] [pid 12700:tid 772] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 08 09:37:15.413596 2023] [mpm_winnt:notice] [pid 1928:tid 764] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Sun Oct 08 09:37:15.413596 2023] [mpm_winnt:notice] [pid 1928:tid 764] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Sun Oct 08 09:37:15.413596 2023] [core:notice] [pid 1928:tid 764] AH00094: Command line: 'C:\\Users\\Admin\\Documents\\GitHub\\L3DTS-Web_Design-19039/apache2/bin/httpd_usbwv8.exe -d C:/Users/Admin/Documents/GitHub/L3DTS-Web_Design-19039/apache2'
+[Sun Oct 08 09:37:15.423702 2023] [mpm_winnt:notice] [pid 1928:tid 764] AH00418: Parent: Created child process 3140
+[Sun Oct 08 09:37:18.328955 2023] [mpm_winnt:notice] [pid 3140:tid 772] AH00354: Child: Starting 64 worker threads.
