@@ -30,7 +30,7 @@
                         <th class="admin">Password</th>
                     </tr>
                     <?php
-                        require_once "connect.php";
+                        require_once "db_connect.php";
 
                         $sql = "SELECT id, name, username, password FROM users";
                         

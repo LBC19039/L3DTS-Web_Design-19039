@@ -32,5 +32,5 @@ figure > img {
 
 .member > p {
     grid-column: auto / span 1;
-    margin: 0;
+    margin-top: 0;
 }
