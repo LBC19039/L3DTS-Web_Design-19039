@@ -14,7 +14,7 @@
     }
 ?>
 <nav style="width: 100%;" id="myNav" class="nav">
-    <a href="./index.php"><img src="./Resources/Images/toastmasters_logo.png" alt="Toastmasters Logo" class="logo-button"></a>
+    <a href="./index.php"><img src="./resources/images/toastmasters_logo.png" alt="Toastmasters Logo" class="logo-button"></a>
     <div class="nav-button"><a href="./index.php">Home</a></div>
     <div class="nav-button"><a href="./committee.php">Committee</a></div>
     <div class="nav-button"><a href="./calendar.php">Calendar</a></div>

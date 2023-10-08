@@ -26,11 +26,9 @@
 }
 
 figure > img {
-    grid-column: auto / span 1;
     width: 150px;
 }
 
 .member > p {
-    grid-column: auto / span 1;
     margin-top: 0;
 }

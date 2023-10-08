@@ -5,15 +5,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./Resources/CSS/main.css">
-        <link rel="stylesheet" href="./Resources/CSS/homepage.css">
-        <link rel="icon" href="./Resources/Images/favicon.png">
+        <link rel="stylesheet" href="./resources/css/main.css">
+        <link rel="stylesheet" href="./resources/css/homepage.css">
+        <link rel="icon" href="./resources/images/favicon.png">
     </head>
     <body>
-        <?php include "login.php" ?>
+        <?php include "./login.php" ?>
         <div class="grid-container">
             <!--navigation bar-->
-            <?php include "navigation.php" ?>
+            <?php include "./navigation.php" ?>
 
             <!--hero banner-->
             <header>
@@ -23,7 +23,7 @@
             <!--main contents of the website-->
             <main>
                 <figure class="stock-image">
-                    <img src="./Resources/Images/stock_image.jpg" style="width: 100%;" alt="Stock Image">
+                    <img src="./resources/images/stock_image.jpg" style="width: 100%;" alt="Stock Image">
                 </figure>
 
                 <article class="info">
@@ -48,15 +48,15 @@
                     <div class="carousel-container">
                         <!--images shown in the carousel-->
                         <figure class="location-slides fade">
-                            <img src="./Resources/Images/Location_Images/general_area.jpg" style="width:100%" alt="General Area">
+                            <img src="./resources/images/location_images/general_area.jpg" style="width:100%" alt="General Area">
                         </figure>
                     
                         <figure class="location-slides fade">
-                            <img src="./Resources/Images/Location_Images/entrance_1.jpg" style="width:100%" alt="Entrance 1">
+                            <img src="./resources/images/location_images/entrance_1.jpg" style="width:100%" alt="Entrance 1">
                         </figure>
 
                         <figure class="location-slides fade">
-                            <img src="./Resources/Images/Location_Images/entrance_2.jpg" style="width:100%" alt="Entrance 2">
+                            <img src="./resources/images/location_images/entrance_2.jpg" style="width:100%" alt="Entrance 2">
                         </figure>
 
                         <!--next and previous buttons-->
@@ -74,8 +74,8 @@
             </main>
 
             <!--footer-->
-            <?php include "footer.php" ?>
+            <?php include "./footer.php" ?>
         </div>
-        <script type="text/javascript" src="./Resources/JavaScript/homepage.js"></script> 
+        <script type="text/javascript" src="./resources/javascript/homepage.js"></script> 
     </body>
 </html>

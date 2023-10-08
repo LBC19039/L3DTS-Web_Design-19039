@@ -4,18 +4,18 @@
         <title>Admin - East Coast Bays Toastmasters</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./Resources/CSS/main.css">
-        <link rel="stylesheet" href="./Resources/CSS/admin.css">
-        <link rel="icon" href="./Resources/Images/favicon.png">
+		<link rel="stylesheet" href="./resources/css/main.css">
+        <link rel="stylesheet" href="./resources/css/admin.css">
+        <link rel="icon" href="./resources/images/favicon.png">
     </head>
     <body>
-        <?php include "login.php" ?>
+        <?php include "./login.php" ?>
         <div class="grid-container">
             <!--navigation bar + kick if not a member-->
             <?php 
-                include "navigation.php";
+                include "./navigation.php";
                 if(!(isset($_SESSION['id']) && isset($_SESSION['username']))) {
-                    header("Location: index.php");
+                    header("Location: ./index.php");
                 }
             ?>
 
@@ -30,7 +30,7 @@
                         <th class="admin">Password</th>
                     </tr>
                     <?php
-                        require_once "db_connect.php";
+                        require_once "./db_connect.php";
 
                         $sql = "SELECT id, name, username, password FROM users";
                         
@@ -54,7 +54,7 @@
             </main>
 
             <!--footer-->
-            <?php include "footer.php" ?>
+            <?php include "./footer.php" ?>
         </div>
     </body>
 </html>

@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     main {
         grid-template-areas: "info" "stock-image" "venue" "carousel";
     }
@@ -6,12 +6,12 @@
         margin-top: 32px;
     }
     header {
-        background-image: url("../Images/hero_banner_m.jpg");
+        background-image: url("../images/hero_banner_m.jpg");
         aspect-ratio: 1200 / 800;
     }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
     main {
         grid-template-areas: 
         "stock-image info"
@@ -21,7 +21,7 @@
         margin-left: 64px;
     }
     header {
-        background-image: url("../Images/hero_banner.jpg");
+        background-image: url("../images/hero_banner.jpg");
         aspect-ratio: 1600 / 500;
     } 
 }
@@ -120,7 +120,8 @@ address {
     border-radius: 3px 0 0 3px;
 }
 
-.prev-img:hover, .next-img:hover {
+.prev-img:hover, 
+.next-img:hover {
     background-color: rgba(169, 178, 177, 0.4);
 }
 

@@ -4,15 +4,15 @@
         <title>Committee Members - East Coast Bays Toastmasters</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./Resources/CSS/main.css">
-        <link rel="stylesheet" href="./Resources/CSS/committee.css">
-        <link rel="icon" href="./Resources/Images/favicon.png">
+		<link rel="stylesheet" href="./resources/css/main.css">
+        <link rel="stylesheet" href="./resources/css/committee.css">
+        <link rel="icon" href="./resources/images/favicon.png">
     </head>
     <body>
-        <?php include "login.php" ?>
+        <?php include "./login.php" ?>
         <div class="grid-container">
             <!--navigation bar-->
-            <?php include "navigation.php" ?>
+            <?php include "./navigation.php" ?>
 
             <!--main contents of the website-->
             <main>
@@ -31,7 +31,7 @@
                         <h3>President</h3>
                     </header>
                     <figure>
-                        <img src="./Resources/Images/Member_Photos/hmadden.jpg" alt="Helen Madden">
+                        <img src="./resources/images/member_photos/hmadden.jpg" alt="Helen Madden">
                     </figure>
                     <p>
                         I've been a member of the East Coast Bays club for nearly eight years now.  Toastmasters has helped me in all strands of life, in both public speaking and leadership. It's also been a fantastic way to integrate with others from the local community. If you're looking to become a more confident speaker or gain some leadership skills in a supportive environment then please come along and visit us!
@@ -44,7 +44,7 @@
                         <h3>Treasurer</h3>
                     </header>
                     <figure>
-                        <img src="./Resources/Images/Member_Photos/mbristol.jpg" alt="Marcus Bristol">
+                        <img src="./resources/images/member_photos/mbristol.jpg" alt="Marcus Bristol">
                     </figure>
                     <p>
                         I'm a software developer who works in the city for a startup called Pushpay. After reviewing the feedback from one of my recent public talks, I realised that I needed to significantly improve my public speaking skills, so decided to come and learn from the best!
@@ -57,7 +57,7 @@
                         <h3>Member</h3>
                     </header>
                     <figure>
-                        <img src="./Resources/Images/Member_Photos/ggeorge.jpg" alt="Glenda George">
+                        <img src="./resources/images/member_photos/ggeorge.jpg" alt="Glenda George">
                     </figure>
                     <p>
                         I joined East Coast Bays Toastmasters early 2008 and have filled the positions of VP Membership, VP Education and President and later served as an AD. An unexpectedly satisfying and rewarding journey with the opportunity to encourage and mentor others as well as developing myself. Every meeting is filled with entertainment as you hear everyone's stories real or fabricated. A pleasure to attend. The skills I have learned both in Public Speaking and Leadership have  been transferable to my working environment. A program designed for those who want to make the most of the moment and lead fulfilling lives that have an impact on the community. 
@@ -66,7 +66,7 @@
             </main>
 
             <!--footer-->
-            <?php include "footer.php" ?>
+            <?php include "./footer.php" ?>
         </div>
     </body>
 </html>

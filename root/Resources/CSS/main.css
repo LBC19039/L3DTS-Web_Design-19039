@@ -27,20 +27,19 @@ main {
     display: grid;
     width: 70%;
     padding: 32px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 /* fonts */
 
 @font-face {
     font-family: "Montserrat";
-    src: url("../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+    src: url("../fonts/montserrat/Montserrat-VariableFont_wght.ttf");
 
 }
 @font-face {
     font-family: "Source Sans Pro";
-    src: url("../Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+    src: url("../fonts/source_sans_pro/SourceSansPro-Regular.ttf");
 }
 
 /* navigation bar */
@@ -73,7 +72,8 @@ nav {
     transition: 0.3s ease;
 }
 
-.nav-button > a:hover {
+.nav-button > a:hover,
+.nav-button > a:focus {
     background-color: #DCEBF4;
     color: #006094;
 }
@@ -95,7 +95,8 @@ div.login-button {
     width: 152px;
 }
 
-a.login-button, button.login-button {
+a.login-button,
+button.login-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,15 +112,16 @@ a.login-button, button.login-button {
     transition: 0.3s ease;
 }
 
-a.login-button:hover, button.login-button:hover {
+a.login-button:hover,
+a.login-button:focus,
+button.login-button:hover, 
+button.login-button:focus {
     background-color: #DCEBF4;
 }
 
 .greeting {
     color: white;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 /* footer */
@@ -201,7 +203,8 @@ footer > div {
     font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
     color: red;
     cursor: pointer;
 }

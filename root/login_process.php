@@ -7,7 +7,7 @@
         header('Location: '.$_SERVER['HTTP_REFERER']);
     }
     else{
-        include "db_connect.php";
+        include "./db_connect.php";
 
         // clean information
         if(isset($_POST['uname']) && isset($_POST['password'])) {
@@ -27,7 +27,6 @@
         $result = mysqli_query($conn, $sql);
 
         // checks whether or not the username + password exists
-
         if(mysqli_num_rows($result) === 1) {
             $row = mysqli_fetch_assoc($result);
             if($row['username'] === $uname && $row['password'] === $pass) {

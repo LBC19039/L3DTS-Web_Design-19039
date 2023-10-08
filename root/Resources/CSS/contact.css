@@ -34,6 +34,7 @@ textarea.input {
     transition: 0.3s ease;
 }
 
-.send-button:hover {
+.send-button:hover, 
+.send-button:focus {
     background-color: #DCEBF4;
 }
